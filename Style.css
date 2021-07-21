@@ -9,7 +9,26 @@ li
 {
     margin-top: 30px;
     text-align:left;
+    color: white;   
 }
+a
+{
+    color:white;
+}
+a:hover
+{
+    color:gray;
+}
+a.active
+{
+    color: lime;
+    font-size: 22px;
+}
+h1
+{
+    color: greenyellow;
+}
+
 body
 {
     background-color:black;
@@ -34,7 +53,7 @@ body
     font-weight: 700;
     text-transform: uppercase;
     font-size: 12px;
-    color: peru;
+    color: white;
     text-align: center;
 }
 
