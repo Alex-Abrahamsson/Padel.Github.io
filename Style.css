@@ -7,6 +7,23 @@
 {
     margin-top: 10px;
 }
+.countdown
+{
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.viaplayDiv
+{
+    display: flex;
+    justify-content:center;
+    background-image: url(./Images/LaRozas.jpg);
+    width:300px;
+    height:180px;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 li
 {
