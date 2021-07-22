@@ -3,30 +3,39 @@
     --main-radius:5px;
     --main-padding:5px;
 }
-
+.table
+{
+    margin-top: 10px;
+}
 
 li
 {
     margin-top: 30px;
     text-align:left;
-    color: white;   
+    color: white;
 }
 a
 {
     color:white;
+    font-size: 14px;
+    transition: all 0.3s;
 }
 a:hover
 {
-    color:gray;
+    color:white;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all 0.3s;
 }
 a.active
 {
-    color: lime;
-    font-size: 22px;
+    color: white;
+    border-bottom: 3px solid black;
+    font-size: 20px;
 }
 h1
 {
-    color: greenyellow;
+    color: black;
 }
 
 body
@@ -41,14 +50,14 @@ body
     background-size: cover;
     display: grid;
     height: 97vh;
-    grid-template-columns: 0.6fr 1.2fr 1.1fr 1.1fr;
+    grid-template-columns: 0.6fr 1.4fr 1.4fr 0.6fr;
     grid-template-rows: 0.2fr 1.6fr 1.6fr 0.3fr;
     grid-template-areas:
     "nav nav nav nav"
     "Sidebar Main Main Content1"
     "Sidebar Main Main Content1"
     "footer footer footer footer";
-    grid-gap: .2rem;
+    grid-gap: .1rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -59,8 +68,8 @@ body
 
 nav
 {
-    border: 1px solid green;
-    background-color: rgba(0, 0, 0, 0.770);
+    border: 3px solid white;
+    background-color: rgba(1, 102, 1, 0.40);
     grid-area: nav;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
@@ -68,8 +77,8 @@ nav
 
 main
 {
-    border: 1px solid green;
-    background-color: rgba(0, 0, 0, 0.770);
+    border: 3px solid white;
+    background-color: rgba(1, 102, 1, 0.40);
     grid-area: Main;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
@@ -77,8 +86,8 @@ main
 
 #Sidebar
 {
-    border: 1px solid green;
-    background-color: rgba(0, 0, 0, 0.770);
+    border: 3px solid white;
+    background-color: rgba(1, 102, 1, 0.40);
     grid-area: Sidebar;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
@@ -86,8 +95,8 @@ main
 
 #Content1
 {
-    border: 1px solid green;
-    background-color: rgba(0, 0, 0, 0.770);
+    border: 3px solid white;
+    background-color: rgba(1, 102, 1, 0.40);
     grid-area: Content1;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
@@ -95,8 +104,8 @@ main
 
 #Content2
 {
-    border: 1px solid green;
-    background-color: rgba(0, 0, 0, 0.770);
+    border: 3px solid white;
+    background-color: rgba(1, 102, 1, 0.40);
     grid-area: Content2;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
@@ -104,8 +113,8 @@ main
 
 #Content3
 {
-    border: 1px solid green;
-    background-color: rgba(0, 0, 0, 0.770);
+    border: 3px solid white;
+    background-color: rgba(1, 102, 1, 0.40);
     grid-area: Content3;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
@@ -113,8 +122,8 @@ main
 
 footer
 {
-    border: 1px solid green;
-    background-color: rgba(0, 0, 0, 0.770);
+    border: 3px solid white;
+    background-color: rgba(1, 102, 1, 0.40);
     grid-area: footer;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
