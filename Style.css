@@ -15,6 +15,7 @@
 }
 .viaplayDiv
 {
+    border-radius: 20px;
     display: flex;
     justify-content:center;
     background-image: url(./Images/LaRozas.jpg);
