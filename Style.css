@@ -9,7 +9,7 @@
 }
 .countdown
 {
-    color: white;
+    color: lime;
     font-size: 18px;
     margin-top: 20px;
 }
@@ -19,6 +19,18 @@
     display: flex;
     justify-content:center;
     background-image: url(./Images/LaRozas.jpg);
+    width:300px;
+    height:180px;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.padelTv
+{
+    border-radius: 20px;
+    display: flex;
+    justify-content:center;
+    background-image: url(./Images/padelPic.jpg);
     width:300px;
     height:180px;
     margin: 10px;
@@ -53,7 +65,7 @@ a.active
 }
 h1
 {
-    color: black;
+    color: white;
 }
 
 body
