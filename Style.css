@@ -37,10 +37,14 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.indexDiv
+{
+    border-bottom: 3px solid white;
+}
 
 li
 {
-    margin-top: 30px;
+    margin-top: 20px;
     text-align:left;
     color: white;
 }

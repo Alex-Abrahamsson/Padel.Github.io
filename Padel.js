@@ -3,7 +3,7 @@
 var countDownDate1 = new Date("jul 29, 2021 10:45:00").getTime();
 
 // Update the count down every 1 second
-var x1 = setInterval(function() {
+var y1 = setInterval(function() {
 
   // Get today's date and time
   var now1 = new Date().getTime();
@@ -23,7 +23,7 @@ var x1 = setInterval(function() {
     
   // If the count down is over, write some text 
   if (distance1 < 0) {
-    clearInterval(x1);
+    clearInterval(y1);
     document.getElementById("countdown1").innerHTML = "Started";
   }
 }, 1000);
@@ -35,7 +35,7 @@ var x1 = setInterval(function() {
 var countDownDate2 = new Date("jul 30, 2021 10:45:00").getTime();
 
 // Update the count down every 1 second
-var x2 = setInterval(function() {
+var y2 = setInterval(function() {
 
   // Get today's date and time
   var now2 = new Date().getTime();
@@ -55,7 +55,7 @@ var x2 = setInterval(function() {
     
   // If the count down is over, write some text 
   if (distance2 < 0) {
-    clearInterval(x2);
+    clearInterval(y2);
     document.getElementById("countdown2").innerHTML = "Started";
   }
 }, 1000);
@@ -67,7 +67,7 @@ var x2 = setInterval(function() {
 var countDownDate3 = new Date("jul 25, 2021 10:00:00").getTime();
 
 // Update the count down every 1 second
-var x3 = setInterval(function() {
+var y3 = setInterval(function() {
 
   // Get today's date and time
   var now3 = new Date().getTime();
@@ -87,7 +87,7 @@ var x3 = setInterval(function() {
     
   // If the count down is over, write some text 
   if (distance3 < 0) {
-    clearInterval(x3);
+    clearInterval(y3);
     document.getElementById("countdown3").innerHTML = "Started";
   }
 }, 1000);
