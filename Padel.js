@@ -64,7 +64,7 @@ var y2 = setInterval(function() {
 
 //========================= Countdown timer3 =================
 // Set the date we're counting down to
-var countDownDate3 = new Date("jul 25, 2021 10:00:00").getTime();
+var countDownDate3 = new Date("jul 31, 2021 11:45:00").getTime();
 
 // Update the count down every 1 second
 var y3 = setInterval(function() {
