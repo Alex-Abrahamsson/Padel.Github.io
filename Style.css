@@ -3,6 +3,40 @@
     --main-radius:5px;
     --main-padding:5px;
 }
+
+.container
+{
+    background-image: url(./Images/Padelcourt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    height: 97vh;
+    grid-template-columns: 0.6fr 1.4fr 1.4fr 0.6fr;
+    grid-template-rows: 0.2fr 1.6fr 1.6fr 0.2fr;
+    grid-template-areas:
+    "nav nav nav nav"
+    "Sidebar Main Main Content3"
+    "Sidebar Main Main Content3"
+    "footer footer footer footer";
+    grid-gap: .1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+}
+img
+{
+    height: 90%;
+    border-radius: 50%;
+}
+
+.indexDiv
+{
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.50);
+    border-radius: 15px;
+}
 .table
 {
     margin-top: 10px;
@@ -13,9 +47,12 @@ p
 }
 .countdown
 {
-    color: lime;
+    color: white;
     font-size: 18px;
-    margin-top: 20px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: center;
 }
 .viaplayDiv
 {
@@ -81,28 +118,7 @@ body
     background-color:black;
 }
 
-.container
-{
-    background-image: url(./Images/Padelcourt.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: grid;
-    height: 97vh;
-    grid-template-columns: 0.6fr 1.4fr 1.4fr 0.6fr;
-    grid-template-rows: 0.2fr 1.6fr 1.6fr 0.3fr;
-    grid-template-areas:
-    "nav nav nav nav"
-    "Sidebar Main Main Content1"
-    "Sidebar Main Main Content1"
-    "footer footer footer footer";
-    grid-gap: .1rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 12px;
-    color: white;
-    text-align: center;
-}
+
 
 nav
 {
@@ -154,6 +170,14 @@ main
     border: 3px solid white;
     background-color: rgba(1, 102, 1, 0.40);
     grid-area: Content3;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+}
+#Content4
+{
+    border: 3px solid white;
+    background-color: rgba(1, 102, 1, 0.40);
+    grid-area: Content4;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
 }
