@@ -25,6 +25,7 @@
     font-size: 14px;
     color: white;
 }
+
 img
 {
     height: 90%;
@@ -34,17 +35,15 @@ img
 .indexDiv
 {
     height: 30px;
-    background-color: rgba(0, 0, 0, 0.50);
+    background-color: rgba(0, 46, 0, 0.4);
     border-radius: 15px;
 }
-.table
-{
-    margin-top: 10px;
-}
+
 p
 {
     margin-top: 40px;
 }
+
 .countdown
 {
     color: white;
@@ -53,35 +52,8 @@ p
     margin-right: 10px;
     margin-top: 10px;
     text-align: center;
+    transition: all 0.5s;
 }
-.viaplayDiv
-{
-    border-radius: 20px;
-    display: flex;
-    justify-content:center;
-    background-image: url(./Images/LaRozas.jpg);
-    width:300px;
-    height:180px;
-    margin-top: 10%;
-    margin-left: 10%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.padelTv
-{
-    border-radius: 20px;
-    display: flex;
-    justify-content:center;
-    background-image: url(./Images/padelPic.jpg);
-    width:300px;
-    height:180px;
-    margin-top: 10%;
-    margin-left: 10%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
 
 li
 {
@@ -89,18 +61,24 @@ li
     text-align:left;
     color: white;
 }
+
 a
 {
     color:white;
-    font-size: 14px;
+    font-size: 18px;
     transition: all 0.3s;
 }
 a:hover
 {
-    color:white;
-    border-radius: 5px;
-    font-size: 18px;
+    color: lime;
+    font-size: 20px;
     transition: all 0.3s;
+}
+a:hover .countdown
+{
+    color: lime;
+    transition: 0.5s;
+    margin-right: 40%;
 }
 a.active
 {
@@ -108,17 +86,17 @@ a.active
     border-bottom: 3px solid black;
     font-size: 20px;
 }
+
 h1
 {
     color: white;
+    text-align: center;
 }
 
 body
 {
     background-color:black;
 }
-
-
 
 nav
 {
@@ -207,4 +185,45 @@ footer
         "Content3"
         "footer"
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.viaplayDiv
+{
+    border-radius: 20px;
+    display: flex;
+    justify-content:center;
+    background-image: url(./Images/LaRozas.jpg);
+    width:300px;
+    height:180px;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.padelTv
+{
+    border-radius: 20px;
+    display: flex;
+    justify-content:center;
+    background-image: url(./Images/padelPic.jpg);
+    width:300px;
+    height:180px;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
