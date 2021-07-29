@@ -1,3 +1,4 @@
+
 //========================= Countdown timer1 =================
 // Set the date we're counting down to
 var padelCountDownDate1 = new Date("jul 29, 2021 10:45:00").getTime();
