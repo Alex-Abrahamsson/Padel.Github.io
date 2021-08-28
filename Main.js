@@ -103,7 +103,7 @@ var y3 = setInterval(function() {
 
 //========================= Countdown timer1 =================
 // Set the date we're counting down to
-var viaCountDownDate1 = new Date("aug 06, 2021 09:30:00").getTime();
+var viaCountDownDate1 = new Date("sep 03, 2021 09:30:00").getTime();
 
 // Update the count down every 1 second
 var x1 = setInterval(function() {
@@ -135,7 +135,7 @@ var x1 = setInterval(function() {
 
 //========================= Countdown timer2 =================
 // Set the date we're counting down to
-var viaCountDownDate2 = new Date("aug 07, 2021 10:00:00").getTime();
+var viaCountDownDate2 = new Date("sep 04, 2021 10:00:00").getTime();
 
 // Update the count down every 1 second
 var x2 = setInterval(function() {
@@ -167,7 +167,7 @@ var x2 = setInterval(function() {
 
 //========================= Countdown timer3 =================
 // Set the date we're counting down to
-var viaCountDownDate3 = new Date("aug 08, 2021 10:00:00").getTime();
+var viaCountDownDate3 = new Date("sep 05, 2021 10:00:00").getTime();
 
 // Update the count down every 1 second
 var x3 = setInterval(function() {
