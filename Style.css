@@ -63,27 +63,17 @@ li
 a
 {
     color:white;
-    font-size: 18px;
-    transition: all 0.3s;
+    font-size: 14px;
+    transition: all 0.5s;
 }
-a:hover
-{
-    color: lime;
-    font-size: 20px;
-    transition: all 0.3s;
-}
+
 a:hover .countdown
 {
     color: lime;
     transition: 0.5s;
     margin-right: 40%;
 }
-a.active
-{
-    color: white;
-    border-bottom: 3px solid black;
-    font-size: 20px;
-}
+
 
 h1
 {
@@ -106,28 +96,31 @@ nav
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
 }
-.topnav a 
+.test
 {
-    color: white;
-    text-align: center;
-    padding: 10px 15px;
-    text-decoration: none;
-    font-size: 15px;
     display: inline-block;
+    background-color: rgb(1, 68, 1);
+    border-radius: 15px;
+    padding: 7px;
+    
+
+    transition: all 1s;
 }
-  
-.topnav a:hover 
+.test:hover
 {
-    background-color: rgb(0, 100, 0);
-    color: white;
-    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 3px 3px 3px green;
+    border-radius: 15px;
+    padding: 13px;
 }
-  
-.topnav a.active 
+.testActive
 {
+    display: inline-block;
     background-color: green;
-    color: lime;
-    border-radius: 10px;
+    box-shadow: 3px 3px 3px lime;
+    border-radius: 15px;
+    padding: 10px;
+    transition: all 1s;
 }
 
 main
@@ -224,4 +217,10 @@ td
 {
     border-bottom: 3px solid white;
     padding-top: 5px;
+}
+
+
+tr:hover
+{
+    background-color: rgba(1, 77, 1, 0.5);
 }
